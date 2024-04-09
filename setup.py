@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.1"
 
-REPO_NAME = "farm_copilot_model_trainer"
-AUTHOR_USER_NAME = "conano"
-SRC_REPO = "farm_copilot"
+REPO_NAME = "farm_copilot_model_inference_ci"
+AUTHOR_USER_NAME = "forged_by_grace"
+SRC_REPO = "farm_copilot_model_inference"
 AUTHOR_EMAIL = "admin@conano.org"
 
 setuptools.setup(

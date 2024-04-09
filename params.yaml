@@ -1,0 +1,10 @@
+IMAGE_SIZE: [150, 150]
+MODEL_CLASSES: ['plant_apple-black-rot', 'plant_apple_apple-scab', 'plant_apple_cedar-apple-rust', 'plant_apple_healthy', 'plant_blueberry-healthy', 'plant_cashew-anthracnose', 'plant_cashew-gumosis', 'plant_cashew-healthy', 'plant_cashew-red-rust', 'plant_cassava-bacterial-blight', 'plant_cassava-brown-spot', 'plant_cassava-green-mite', 'plant_cassava-healthy', 'plant_cassava-mosaic', 'plant_cherry-healthy', 'plant_cherry-powdery-mildew', 'plant_corn-cercospora-leaf-spot', 'plant_corn-common-rust', 'plant_corn-healthy', 'plant_corn-leaf-blight', 'plant_corn-leaf-spot', 'plant_corn-streak-virus', 'plant_grape-black-rot', 'plant_grape-esca(Black-Measles)', 'plant_grape-healthy', 'plant_grape-leaf-blight(Isariopsis-Leaf-Spot)', 'plant_orange-haunglongbing(citrus-greening)', 'plant_peach-bacterial-spot', 'plant_peach-healthy', 'plant_pepper-bell-bacterial-spot', 'plant_pepper-bell-healthy', 'plant_pest_aphids', 'plant_pest_armyworm', 'plant_pest_beetle', 'plant_pest_bollworm', 'plant_pest_grasshopper', 'plant_pest_mites', 'plant_pest_mosquito', 'plant_pest_sawfly', 'plant_pest_stem-borer', 'plant_potato-early-blight', 'plant_potato-healthy', 'plant_potato-late-blight', 'plant_raspberry-healthy', 'plant_soybean-healthy', 'plant_squash-powdery-mildew', 'plant_strawberry-healthy', 'plant_strawberry-leaf-scorch', 'plant_tomato-bacterial-spot', 'plant_tomato-early-blight', 'plant_tomato-healthy', 'plant_tomato-late-blight', 'plant_tomato-leaf-blight', 'plant_tomato-leaf-curl', 'plant_tomato-leaf-mold', 'plant_tomato-mosaic-virus', 'plant_tomato-septoria-leaf-spot', 'plant_tomato-spider-mites(two-spotted-spider-mite)', 'plant_tomato-target-spot', 'plant_tomato-verticulium-wilt', 'plant_tomato-yellow-leaf-curl-virus']
+MODEL_NAME: "farm_copilot_model"
+MODEL_VERSION: 1
+APP_VERSION: "0.0.1"
+APP_TITLE: "Farm Copilot API"
+APP_DEBUG: True
+APP_PORT: 8010
+APP_HOST: 'localhost'
+APP_RELOAD: True

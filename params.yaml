@@ -8,3 +8,13 @@ APP_DEBUG: True
 APP_PORT: 8010
 APP_HOST: 'localhost'
 APP_RELOAD: True
+APP_DESCRIPTION: 'This service is used to create, update and delete user accounts on the server'
+APP_TOS: 'https://conano.org/tos'
+APP_COMPANY_NAME: 'Conano Systems Ltd'
+APP_COMPANY_URL: 'https://conano.org'
+APP_COMPANY_EMAIL: 'admin@conano.org'
+APP_LIFESPAN: 'on'
+APP_ENTRY_POINT: 'main:app'
+APP_PROMPT_MODEL: 'gpt-3.5-turbo'
+APP_PROMPT_ROLE: 'user'
+APP_PROMPT_LLM_TEMPERATURE: 0

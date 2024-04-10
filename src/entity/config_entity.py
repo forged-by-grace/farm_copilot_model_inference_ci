@@ -22,4 +22,18 @@ class StartUpConfig:
     params_app_port: int
     params_app_host: str
     params_app_reload: bool
+    params_app_description: str
+    params_app_tos: str
+    params_app_company_name: str
+    params_app_company_url: str
+    params_app_lifespan: str
+    params_app_entry_point: str
+    params_app_company_email: str
+
+
+@dataclass(frozen=True)
+class PromptConfig:
+    params_app_prompt_model: str
+    params_app_prompt_user: str
+    params_app_prompt_llm_temperature: int
 

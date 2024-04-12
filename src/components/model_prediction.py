@@ -46,7 +46,7 @@ class ModelPrediction:
             full_name = prediction_class.split('_')[-1]
 
             # Check if fullname is more than 1
-            disease_name = name.split('-') if len(name) > 1 else name
+            disease_name = full_name.split('-') if len(full_name) > 1 else full_name
             health_status = 'Healthy' if disease_name[-1] == 'healthy' else ' '.join(disease_name).title()
             result = {'health_status': health_status, 'confidence_score': confidence_score}
 

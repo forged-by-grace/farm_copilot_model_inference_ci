@@ -34,6 +34,6 @@ class StartUpConfig:
 @dataclass(frozen=True)
 class PromptConfig:
     params_app_prompt_model: str
-    params_app_prompt_user: str
+    params_app_prompt_role: str
     params_app_prompt_llm_temperature: int
 

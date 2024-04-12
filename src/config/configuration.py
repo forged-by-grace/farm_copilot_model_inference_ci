@@ -50,7 +50,7 @@ class ConfigurationManager:
     def get_prompt_config(self) -> PromptConfig:
         prompt_config = PromptConfig(
             params_app_prompt_model=self.params.APP_PROMPT_MODEL,
-            params_app_prompt_user=self.params.APP_PROMPT_USER,
+            params_app_prompt_role=self.params.APP_PROMPT_ROLE,
             params_app_prompt_llm_temperature=self.params.APP_PROMPT_LLM_TEMPERATURE
         )
 
